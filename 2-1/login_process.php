@@ -13,6 +13,8 @@
     header('Location: '.'/2-1/login.php');
   }
   else {
+    $_SESSION['session_expire'] = '5minute';
+    $_SESSION['login_time'] = time();
     $user_class = $row['user_class'];
     $_SESSION['user_id'] = $user_id;
     $_SESSION['user_class'] = $user_class;
