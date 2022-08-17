@@ -7,8 +7,11 @@
     if(strcmp($gender, '남') == 0) {
       $color = '#66CCFF';
     }
-    else {
+    else if(strcmp($gender, '여') == 0){
       $color = '#FFCCFF';
+    }
+    else {
+      $color = NULL;
     }
     $message = '
       <html>
@@ -31,6 +34,7 @@
           </div>
         </body>
       </html>';
+      echo $message;
     $to = 'name@example.com';
     $from = 'wogus392@gmail.com';
     $subject = '청첩장';
