@@ -16,7 +16,7 @@
 <?php
   if(isset($_GET['val'])) {
     $val = $_GET['val'];
-    echo fibonacci($val);
+    echo fibonacci($val) % 10007;
   }
 
   function fibonacci($val) {
