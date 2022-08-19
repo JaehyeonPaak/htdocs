@@ -15,6 +15,7 @@
 </html>
 
 <?php
+//8/19/2022
   if(isset($_GET['val1']) && isset($_GET['val2'])) {
     $val1 = $_GET['val1'];
     $val2 = $_GET['val2'];

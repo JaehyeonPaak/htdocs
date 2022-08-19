@@ -1,4 +1,4 @@
-<?php
+<?php //8/19/2022
   session_start();
 
   $user_id = $_POST['user_id'];

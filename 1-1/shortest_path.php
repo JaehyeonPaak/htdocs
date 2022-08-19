@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -11,6 +12,7 @@
 </html>
 
 <?php
+//8/19/2022
   $num_v = 5; //정점 개수
   $num_e = 6; //간선 개수
   $start = 1; //시작점

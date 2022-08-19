@@ -13,7 +13,7 @@
   </head>
   <body>
     <h1>웹티즌 사전과제 【필수과제 2】 2-1</h1>
-    <?php
+    <?php //8/19/2022
       if(!isset($_SESSION['user_id'])) { ?>
         <a href='login.php'>Login</a>
     <?php

@@ -1,4 +1,4 @@
-<?php
+<?php //8/19/2022
   $mysqli = mysqli_connect('localhost', 'root', 'wogus1035', "member");
  ?>
 
